@@ -1,0 +1,8 @@
+if(points[j][0] < points[i][0]) {
+                    changer0 = points[j][0];
+                    changer1 = points[j][1];
+                    points[j][0] = points[i][0];
+                    points[j][1] = points[i][1];
+                    points[i][0] = changer0;
+                    points[i][1 = changer1;
+}

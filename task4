@@ -1,0 +1,9 @@
+try
+        {
+            String newLine = reader.readLine();
+            while(newLine != null)
+            {
+                line += newLine + "\n";
+                newLine = reader.readLine();
+            }
+        }
